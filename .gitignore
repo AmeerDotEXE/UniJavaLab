@@ -1,5 +1,7 @@
 /.git/
 /bin/
+/binTests/
+
 # Compiled class file
 *.class
 
