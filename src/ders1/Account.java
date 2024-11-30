@@ -22,7 +22,7 @@ public class Account {
 	public String getName() {
 		return name;
 	}
-	public int getBakiye() {
+	public int getBalance() {
 		return balance;
 	}
 	public void depositMoney(int amount) {

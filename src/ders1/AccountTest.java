@@ -12,15 +12,15 @@ public class AccountTest {
 		
 		System.out.println("Users: ");
 		System.out.print("1.User: "+k1.getName()+" / ");
-		System.out.println("Balance: "+k1.getBakiye());
+		System.out.println("Balance: "+k1.getBalance());
 		System.out.print("2.User: "+k2.getName()+" / ");
-		System.out.println("Balance: "+k2.getBakiye());
+		System.out.println("Balance: "+k2.getBalance());
 		
 		System.out.println("how much you want to deposit?: ");
 		int cash = input.nextInt();
 		k1.depositMoney(cash);  
-		System.out.println("1.User: "+k1.getBakiye());
-		System.out.println("2.User: "+k2.getBakiye());
+		System.out.println("1.User: "+k1.getBalance());
+		System.out.println("2.User: "+k2.getBalance());
 		
 		input.close();
 	}
