@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class AccountTest {
+public class AccountUnitTest {
 
 	@Test
 	public void test() {

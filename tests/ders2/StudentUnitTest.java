@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import ders1.Account;
 
-public class StudentTest {
+public class StudentUnitTest {
 
 	@Test
 	public void test() {
