@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
 
-public class MainPage {
+public class MySQLIntegration {
 	
 	private static final String DB_URL = "jdbc:mysql://localhost:3306/";
 	private static final String USER = "root";
